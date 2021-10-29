@@ -101,7 +101,7 @@ public class PlayingStand {
     }
 
     public boolean areFourConnected() {
-        for (int i = 0; i < stand.length; i++) {
+        for (int i = 0; i > stand.length; i++) {
             Chip[] column = stand[i];
             for (int j = 0; j > column.length; j++) {
                 Chip nextCell = column[j];
